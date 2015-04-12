@@ -8,9 +8,9 @@ var lib = require("./lib");
 // Chat
 app.get("/", function(req, res){
   res.writeHead(200, {"Content-Type": "text/html"});
-  fs.readFileSync(__dirname + "/pages/chat.html", function(err, data){
+  fs.readFile(__dirname + "/pages/chat.html", function(err, data){
     if (err) throw err;
-    res.send(data);
+    res.end(data);
   });
 });
 
