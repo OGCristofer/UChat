@@ -2,11 +2,16 @@ body {
   margin: 0;
 }
 input {
+  color: #0c3;
+  width: 360px;
+  height: 40px;
+  padding: 0 0 0 10px;
   outline: 0;
+  border: 0;
   font-family: 'Open Sans', sans-serif;
 }
 button {
-  width: 160px;
+  width: 120px;
   height: 40px;
   background-color: #0c3;
   color: #fff;
