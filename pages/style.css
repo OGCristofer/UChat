@@ -10,4 +10,6 @@ button {
   background-color: #0c3;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+  border: 0;
+  outline: 0;
 }
