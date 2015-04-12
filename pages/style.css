@@ -3,6 +3,7 @@ body {
 }
 input {
   outline: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 button {
   width: 160px;
