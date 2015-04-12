@@ -1,3 +1,6 @@
 input {
   outline: 0;
 }
+button {
+  background-color: #3f6;
+}
