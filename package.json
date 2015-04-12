@@ -1,0 +1,26 @@
+{
+  "name": "chatted",
+  "version": "1.0.0",
+  "description": "A chat system",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Uperium/Chatted"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Multiple",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Uperium/Chatted/issues"
+  },
+  "homepage": "https://github.com/Uperium/Chatted"
+}
