@@ -1,6 +1,11 @@
+body {
+  margin: 0;
+}
 input {
   outline: 0;
 }
 button {
   background-color: #3f6;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
