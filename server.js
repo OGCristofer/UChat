@@ -14,9 +14,7 @@ app.get("/", function(req, res){
   });
 });
 
-app.get("/static/*", function(req, res){
-  lib.static(req, res, fs)
-});
+app.get(express.static(__dirname + "/static"));
 
 io.on("connection", function(socket){
   lib.chat(socket);
