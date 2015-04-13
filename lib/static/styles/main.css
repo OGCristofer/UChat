@@ -34,7 +34,6 @@ button {
     outline: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border: 1px solid #0c3;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
