@@ -15,7 +15,7 @@ body {
     left: 0; right: 0;
 }
 input {
-      color: #0c3;
+      color: #333;
       width: calc(90vw - 120px - 10px);
       height: 48px;
       padding: 0 0 0 10px;
