@@ -5,6 +5,9 @@ var io = require("socket.io")(http);
 var fs = require("fs");
 var lib = require("./lib");
 
+// Static
+app.use("/static", express.static(__dirname + "/lib/static"));
+
 // Chat
 app.get("/", function(req, res){
   res.writeHead(200, {"Content-Type": "text/html"});
@@ -13,8 +16,6 @@ app.get("/", function(req, res){
     res.end(data);
   });
 });
-
-app.get(express.static(__dirname + "/static"));
 
 io.on("connection", function(socket){
   lib.chat(socket);
