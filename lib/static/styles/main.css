@@ -17,9 +17,9 @@ body {
 }
 input {
       color: #333;
-      width: calc(90vw - 120px - 10px);
+      width: calc(90vw - 120px - 20px);
       height: 48px;
-      padding: 0 0 0 10px;
+      padding: 0 0 0 20px;
       outline: 0;
       border: 0;
       font-family: 'Open Sans', sans-serif;
