@@ -40,6 +40,5 @@ button {
     transition: all 0.2s ease-in-out;
 }
 button:hover {
-    background-color: #fff;
-    color: #0c3;
+    background-color: #3f6;
 }
