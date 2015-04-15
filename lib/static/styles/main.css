@@ -44,7 +44,7 @@ h1 {
 #input {
   color: #666;
   background-color: #fff;
-  width: calc(90vw - 120px - 16px);
+  width: calc(90vw - 120px - 32px);
   min-height: 48px;
   padding: 0 16px;
   outline: 0;
