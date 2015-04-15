@@ -44,12 +44,13 @@ h1 {
 #input {
   color: #666;
   background-color: #fff;
-  width: calc(90vw - 120px - 64px);
+  width: calc(90vw - 120px - 632px);
   min-height: 48px;
   padding: 0 16px;
   outline: 0;
   border: 0;
   font-family: 'Droid Sans Mono', monospace;
+  line-height: 1;
   margin: 0;
   display: inline-block;
 }
