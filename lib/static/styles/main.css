@@ -55,7 +55,7 @@ h1 {
 }
 [contenteditable=true]:empty:before{
   content: attr(placeholder);
-  color: #999;
+  color: #ccc;
 }
 button {
   width: 120px;
@@ -70,6 +70,7 @@ button {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  display: inline-block;
 }
 button:hover {
     background-color: #3f6;
