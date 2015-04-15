@@ -51,7 +51,7 @@ h1 {
   border: 0;
   font-family: 'Droid Sans Mono', monospace;
   margin: 0;
-  display: block;
+  display: inline-block;
 }
 [contenteditable=true]:empty:before{
   content: attr(placeholder);
