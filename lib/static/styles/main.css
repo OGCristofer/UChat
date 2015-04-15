@@ -49,6 +49,7 @@ h1 {
   outline: 0;
   border: 0;
   font-family: 'Droid Sans Mono', monospace;
+  resize: none;
 }
 button {
   width: 120px;
