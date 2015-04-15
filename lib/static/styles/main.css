@@ -21,19 +21,18 @@ h1 {
   font-weight: normal;
   color: #999;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  line-height: 64px;
 }
 .message {
   width: 80vw;
-  padding: 32px;
+  padding: 16px;
   display: inline-block;
   background-color: #fff;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
 #input-wrapper {
   width: 90vw;
-  display: inline-block;
+  height: 48px;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
   white-space: nowrap;
   position: absolute;
@@ -45,20 +44,30 @@ h1 {
   color: #666;
   background-color: #fff;
   width: calc(90vw - 120px - 32px);
-  min-height: 48px;
-  padding: 0 16px;
+  min-height: 16px;
+  padding: 16px;
   outline: 0;
   border: 0;
-  font-family: 'Droid Sans Mono', monospace;
+  font: 1em 'Droid Sans Mono', monospace;
   line-height: 1;
   margin: 0;
-  display: inline-block;
+  display: inline-block;  
+}
+#input:empty {
+  display: block;
 }
 [contenteditable=true]:empty:before{
+  font: 1em 'Droid Sans Mono', monospace;
+  line-height: 1;
   content: attr(placeholder);
   color: #ccc;
+  cursor: text;
+  display: block;
 }
 button {
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 120px;
   height: 48px;
   background-color: #0c3;
