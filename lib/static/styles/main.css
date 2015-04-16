@@ -1,51 +1,51 @@
 body {
-  margin: 0;
-  background-color: #999;
+	margin: 0;
+	background-color: #999;
 }
 * {
-  font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .clickable {
-  cursor: pointer;
+	cursor: pointer;
 }
 header {
-  width: 100vw;
-  height: 64px;
-  background-color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  position: relative;
+	width: 100vw;
+	height: 64px;
+	background-color: #fff;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	position: relative;
 }
 h1 {
-  margin: 0;
-  padding-left: 32px;
-  font-weight: normal;
-  color: #999;
-  position: absolute;
-  line-height: 64px;
+	margin: 0;
+	padding-left: 32px;
+	font-weight: normal;
+	color: #999;
+	position: absolute;
+	line-height: 64px;
 }
 .message {
-  width: 80vw;
-  padding: 16px;
-  display: inline-block;
-  background-color: #fff;
-  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+	width: 80vw;
+	padding: 16px;
+	display: inline-block;
+	background-color: #fff;
+	box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
 #input-wrapper {
-  width: 90vw;
+	width: 90vw;
 	position: absolute;
 	bottom: 5vw;
 	left: 5vw;
-  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
 #input {
-  color: #666;
-  background-color: #fff;
-  width: calc(100% - 32px - 96px);
-  padding: 16px;
-  outline: 0;
-  border: 0;
-  font: 1.25em 'Droid Sans Mono', monospace;
-  display: block;  
+	color: #666;
+	background-color: #fff;
+	width: calc(100% - 32px - 96px);
+	padding: 16px;
+	outline: 0;
+	border: 0;
+	font: 1.25em 'Droid Sans Mono', monospace;
+	display: block;  
 }
 [contenteditable=true]:empty:before {
 	content: "Type a message...";
@@ -53,22 +53,23 @@ h1 {
 	font: 1.25em 'Droid Sans Mono', monospace;
 }
 #send {
-  position: absolute;
-  right: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
 	border: 0;
 	outline: 0;
 	padding: 0;
-  width: 96px;
-  height: 100%;
-  color: #fff;
-  background-color: #69f;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+	width: 96px;
+	height: 100%;
+	color: #fff;
+	background-color: #69f;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 #send:hover {
-  background-color: #9cf;
+	background-color: #9cf;
 }
