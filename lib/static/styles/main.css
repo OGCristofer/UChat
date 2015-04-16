@@ -32,48 +32,36 @@ h1 {
 }
 #input-wrapper {
   width: 90vw;
-  height: 48px;
+	position: absolute;
+	bottom: 5vw;
+	left: 5vw;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
-  white-space: nowrap;
-  position: absolute;
-  margin: 0 auto;
-  bottom: 5vw;
-  left: 0; right: 0;
 }
 #input {
   color: #666;
   background-color: #fff;
-  width: calc(90vw - 120px - 32px);
-  min-height: 16px;
+  width: calc(100% - 32px - 96px);
   padding: 16px;
   outline: 0;
   border: 0;
-  font: 1em 'Droid Sans Mono', monospace;
-  line-height: 1;
-  margin: 0;
-  display: inline-block;  
+  font: 1.25em 'Droid Sans Mono', monospace;
+  display: block;  
 }
-#input:empty {
-  display: block;
+[contenteditable=true]:empty:before {
+	content: "Type a message...";
+	color: #999;
+	font: 1.25em 'Droid Sans Mono', monospace;
 }
-[contenteditable=true]:empty:before{
-  font: 1em 'Droid Sans Mono', monospace;
-  line-height: 1;
-  content: attr(placeholder);
-  color: #ccc;
-  cursor: text;
-  display: block;
-}
-button {
+#send {
   position: absolute;
-  top: 0;
   right: 0;
-  width: 120px;
-  height: 48px;
-  background-color: #0c3;
+	border: 0;
+	outline: 0;
+	padding: 0;
+  width: 96px;
+  height: 100%;
   color: #fff;
-  border: 0;
-  outline: 0;
+  background-color: #69f;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.2s ease-in-out;
@@ -81,6 +69,6 @@ button {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-button:hover {
-    background-color: #3f6;
+#send:hover {
+  background-color: #9cf;
 }
