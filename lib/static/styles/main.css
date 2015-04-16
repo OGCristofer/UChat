@@ -13,7 +13,9 @@ header {
 	height: 64px;
 	background-color: #fff;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-	position: relative;
+	position: fixed;
+	top: 0;
+	z-index: 2;
 }
 h1 {
 	margin: 0;
@@ -23,12 +25,33 @@ h1 {
 	position: absolute;
 	line-height: 64px;
 }
+#messages {
+	margin-top: 80px;
+	width: 90vw;
+}
 .message {
-	width: 80vw;
 	padding: 16px;
-	display: inline;
+	display: inline-block;
 	background-color: #fff;
 	box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+	font-size: 1.25rem;
+	margin: 4px;
+	margin-left: calc(5vw + 64px);
+	color: #666;
+	border-radius: 8px;
+	position: relative;
+	outline: 0;
+}
+.arrow {
+	display: block;
+	transform: translate(-100%, -50%);
+	position: absolute;
+	left: 0;
+	top: 50%;
+	border-width: 8px;
+	border-style: solid;
+	border-color: transparent;
+	border-right-color: #fff;
 }
 #input-wrapper {
 	width: 90vw;
@@ -48,9 +71,10 @@ h1 {
 	display: block;  
 }
 [contenteditable=true]:empty:before {
-	content: "Type a message...";
+	content: attr(placeholder);
 	color: #999;
 	font: 1.25rem 'Droid Sans Mono', monospace;
+	cursor: text;
 }
 #send {
 	position: absolute;
