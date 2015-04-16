@@ -44,13 +44,13 @@ h1 {
 	padding: 16px;
 	outline: 0;
 	border: 0;
-	font: 1.25em 'Droid Sans Mono', monospace;
+	font: 1.25rem 'Droid Sans Mono', monospace;
 	display: block;  
 }
 [contenteditable=true]:empty:before {
 	content: "Type a message...";
 	color: #999;
-	font: 1.25em 'Droid Sans Mono', monospace;
+	font: 1.25rem 'Droid Sans Mono', monospace;
 }
 #send {
 	position: absolute;
