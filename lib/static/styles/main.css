@@ -26,7 +26,7 @@ h1 {
 .message {
 	width: 80vw;
 	padding: 16px;
-	display: inline-block;
+	display: inline;
 	background-color: #fff;
 	box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
